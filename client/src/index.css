@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* border: solid black 3px; */
+}
+
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  text-align: center;
+  background-color: rgb(98, 161, 140);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Josefin Sans;
+}
+
+.title {
+  text-align: center;
+  font-family: Lobster;
+}
+
+.desc {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 600px;
+  background-color: rgb(166, 226, 206);
+  font-family: Josefin Sans;
+}
+
+.content div {
+  padding: 10px;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+}
+
+.blog-image {
+  height: 400px;
+}
+
+.github-image {
+  height: 400px;
+}
+
+.home-text {
+  text-align: center;
+}
+
+/* * {
+  border: solid black 3px;
+  margin: 10px;
+  padding: 10px;
+} */
